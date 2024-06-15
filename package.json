@@ -1,0 +1,22 @@
+{
+  "name": "bella-interpreter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "c8 mocha --loader=ts-node/esm --experimental-specifier-resolution=node src/**/*.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "mocha": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "ts-node": "^10.9.2"
+  }
+}
